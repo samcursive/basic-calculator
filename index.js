@@ -7,7 +7,6 @@ function clearDisplay(){
     display.value = "";
 }
 
-
 //To Show Values On The Display
 function appendToDisplay(input){
     display.value += input;
