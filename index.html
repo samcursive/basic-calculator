@@ -11,24 +11,26 @@
 <div id="calculator">
     <input id="display" readonly> <!--To Display the numbers to type and be numeric ONLY. -->
     <div id="keys">
-        <button onclick="appendToDisplay('+')">+</button>  <!--Addition Operator-->
-        <button onclick="appendToDisplay('-')">-</button>  <!--Subtraction Operator-->
-        <button onclick="appendToDisplay('x')">x</button>  <!--Multiplication Operator-->
-        <button onclick="appendToDisplay('÷')">÷</button>  <!--Division Operator-->
-        <button onclick="appendToDisplay('%')">%</button>  <!--Modulo Operator-->
+        <button onclick="clearDisplay" class="operator-btn">C</button>
         <button onclick="appendToDisplay('9')">9</button>
         <button onclick="appendToDisplay('8')">8</button>
         <button onclick="appendToDisplay('7')">7</button>
+        <button onclick="appendToDisplay('+')" class="operator-btn">+</button>  <!--Addition Operator-->
         <button onclick="appendToDisplay('6')">6</button>
         <button onclick="appendToDisplay('5')">5</button>
         <button onclick="appendToDisplay('4')">4</button>
+        <button onclick="appendToDisplay('-')" class="operator-btn">-</button>  <!--Subtraction Operator-->
+
         <button onclick="appendToDisplay('3')">3</button>
         <button onclick="appendToDisplay('2')">2</button>
         <button onclick="appendToDisplay('1')">1</button>
+        <button onclick="appendToDisplay('x')" class="operator-btn">x</button>  <!--Multiplication Operator-->
         <button onclick="appendToDisplay('0')">0</button>
-        <button onclick="appendToDisplay('.')">.</button>  <!--Decimal Symbol--> 
+        <button onclick="appendToDisplay('.')" >.</button>  <!--Decimal Symbol--> 
         <button onclick="calculate()">=</button>
-        <button onclick="clearDisplay">C</button>
+        <button onclick="appendToDisplay('÷')" class="operator-btn">÷</button>  <!--Division Operator-->
+        <button onclick="appendToDisplay('%')" class="operator-btn">%</button>  <!--Modulo Operator-->
+       
     </div>    
 </div>
 
