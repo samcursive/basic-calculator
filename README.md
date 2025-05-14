@@ -1,15 +1,14 @@
 # Basic Calculator.
 
 The First of many Web Development Projects anyone will ever do. 
+Feel free to use this however, just make sure to credit me if you use/learn from any of my code. 
+
 
 File Structure:
 Repo
  - HTML File.
  - CSS File.
  - JS File.
-
-
-
 
 
 Author's Thoughts:
