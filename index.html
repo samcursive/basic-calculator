@@ -10,12 +10,13 @@
 <div id="calculator">
     <input id="display" readonly> <!--To Display the numbers to type and be numeric ONLY. -->
     <div id="buttons">
-        <button>+</button>  <!--Addition Operator-->
-        <button>-</button>  <!--Subtraction Operator-->
-        <button>x</button>  <!--Multiplication Operator-->
-        <button>÷</button>  <!--Division Operator-->
+        <button onclick="appendToDisplay('+')">+</button>  <!--Addition Operator-->
+        <button onclick="appendToDisplay('-')">-</button>  <!--Subtraction Operator-->
+        <button onclick="appendToDisplay('x')">x</button>  <!--Multiplication Operator-->
+        <button onclick="appendToDisplay('÷')">÷</button>  <!--Division Operator-->
+        <button onclick="appendToDisplay('%')">%</button>  <!--Modulo Operator-->
 
-        
+
 
 
 
